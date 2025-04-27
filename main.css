@@ -7,9 +7,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-image: url("images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
    
+=======
+>>>>>>> 7385d2b06a54d301e4ca89c20086f4c74b04eaec
 }
 .content {
     display:flex;
