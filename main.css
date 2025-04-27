@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0e8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: o 10px 20px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    text-align: center;
+    align-self: center;
+}
+.card-image{
+    width: 100%;
+}
+.card-content{
+    padding: 20px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #1f2f56;
+}
+.card-content{
+    color: #6b7b8d;
+    font-size: 14px;
+    margin: 15px 0;
+}
+.way{
+    background-color: #f5f7ff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.way-details{
+    display: flex;
+    align-items: center;
+}
+.icon-music {
+    color: #6b7b8d;
+}
+.way-details strong {
+    color: #1f2f56;
+    font-size: 16px;
+}
+.way-details p {
+    color: #6b7b8d;
+    margin: 5px 0 0;
+    font-size: 13px;
+}
+.change-link{
+    color: #3829e9;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Payment-button{
+    background-color:#5247ce;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #5247ce;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.Order-button{
+    background:white ;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    border: 0px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+.attribution{
+   margin-top: auto;
+   text-align: left;
+}
